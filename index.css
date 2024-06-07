@@ -1,0 +1,380 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  font-family: "Playfair Display", "微軟正黑體";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: #b8b8ff;
+}
+html .title01, body .title01 {
+  position: absolute;
+  left: 130px;
+  top: 0px;
+  font-size: 50px;
+  width: 100px;
+  height: 800px;
+  border-radius: 0;
+  color: #0D0221;
+}
+html .box, body .box {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+  position: absolute;
+  left: 990px;
+  top: 455px;
+  position: relative;
+  background-color: #FFF0B2;
+}
+html .box .box1, body .box .box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C5AAF1;
+}
+html .box .box1 h4, body .box .box1 h4 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 35px;
+  opacity: 0.6;
+  color: #39588B;
+  transition: color 1s;
+}
+html .box .box2, body .box .box2 {
+  width: 300px;
+  height: 100px;
+  border-radius: 0;
+  position: absolute;
+  left: 330px;
+  top: 40px;
+}
+html .box .box2 h4, body .box .box2 h4 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #39588B;
+  opacity: 0;
+  transition: opacity 1s;
+}
+html .box .box3, body .box .box3 {
+  width: 100;
+  height: 200px;
+  border-radius: 0;
+  position: absolute;
+  left: 20px;
+  top: 250px;
+  transition: left 1s, top 1s;
+}
+html .box .box3 h5, body .box .box3 h5 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #39588B;
+  transition: font-size 1s;
+}
+html .box .box4, body .box .box4 {
+  width: 100;
+  height: 200px;
+  border-radius: 0;
+  position: absolute;
+  left: -450px;
+  top: 390px;
+  transition: left 1s, top 1s;
+}
+html .box .box4 h5, body .box .box4 h5 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #fff;
+  transition: font-size 1s;
+}
+html .box .box5, body .box .box5 {
+  width: 100;
+  height: 200px;
+  border-radius: 0;
+  position: absolute;
+  left: -440px;
+  top: 410px;
+  transition: left 1s, top 1s;
+}
+html .box .box5 h5, body .box .box5 h5 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  line-height: 35px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  color: #fff;
+  transition: font-size 1s;
+}
+html .box:hover .box1 h4, body .box:hover .box1 h4 {
+  color: #231942;
+  transition: 2s;
+}
+html .box:hover .box3, body .box:hover .box3 {
+  position: absolute;
+  left: 10px;
+  top: 280px;
+  transition: 1s;
+}
+html .box:hover .box3 h5, body .box:hover .box3 h5 {
+  font-size: 20px;
+  transition: 1s;
+}
+html .box:hover .ear1, body .box:hover .ear1 {
+  transform: rotate(55deg);
+  position: absolute;
+  left: 280px;
+  top: 90px;
+  transition: 1.5s;
+}
+html .box:hover .ear2, body .box:hover .ear2 {
+  transform: rotate(315deg);
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  transition: 1.5s;
+}
+html .box:active .box2 h4, body .box:active .box2 h4 {
+  opacity: 1;
+  transition: 1s;
+}
+html .box:active .box1 h4, body .box:active .box1 h4 {
+  opacity: 1;
+  transition: 1s;
+}
+html .ear1, body .ear1 {
+  width: 80px;
+  height: 250px;
+  border-radius: 250px;
+  position: absolute;
+  left: 280px;
+  top: 110px;
+  background-color: #FECCF1;
+  transform: rotate(35deg);
+  border: solid 4px black;
+  transition: transform 1s, left 1s, top 1s;
+}
+html .ear2, body .ear2 {
+  width: 80px;
+  height: 250px;
+  border-radius: 250px;
+  position: absolute;
+  left: 500px;
+  top: 110px;
+  background-color: #FECCF1;
+  transform: rotate(325deg);
+  border: solid 4px black;
+  transition: transform 1s, left 1s, top 1s;
+}
+html .person, body .person {
+  width: 290px;
+  height: 250px;
+  border-radius: 250px;
+  position: absolute;
+  left: 300px;
+  top: 140px;
+  background-color: #FECCF1;
+  border: solid 4px black;
+}
+html .person .hair .hair1, body .person .hair .hair1 {
+  width: 25px;
+  height: 8px;
+  border-radius: 250px;
+  position: absolute;
+  left: 180px;
+  top: 50px;
+  background-color: #150BAA;
+  border: solid 3px black;
+  transition: left 1s, top 1s;
+}
+html .person .hair .hair2, body .person .hair .hair2 {
+  width: 25px;
+  height: 8px;
+  border-radius: 250px;
+  position: absolute;
+  left: 90px;
+  top: 50px;
+  background-color: #150BAA;
+  border: solid 3px black;
+}
+html .person .eyes .Reye, body .person .eyes .Reye {
+  width: 40px;
+  height: 60px;
+  border-radius: 250px;
+  position: absolute;
+  left: 180px;
+  top: 80px;
+  background-color: #fff;
+  border: solid 3px black;
+}
+html .person .eyes .Reye .eye1, body .person .eyes .Reye .eye1 {
+  width: 20px;
+  height: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  background-color: #150BAA;
+  border: solid 3px black;
+  transition: width 1s, height 1s, left 1s, top 1s;
+}
+html .person .eyes .Leye, body .person .eyes .Leye {
+  width: 40px;
+  height: 60px;
+  border-radius: 250px;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  background-color: #fff;
+  border: solid 3px black;
+}
+html .person .eyes .Leye .eye2, body .person .eyes .Leye .eye2 {
+  width: 20px;
+  height: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  background-color: #150BAA;
+  border: solid 3px black;
+  transition: width 1s, height 1s, left 1s, top 1s;
+}
+html .person .nose, body .person .nose {
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: #150BAA transparent transparent transparent;
+  position: absolute;
+  left: 140px;
+  top: 140px;
+  border-radius: 40%;
+}
+html .person .mouth, body .person .mouth {
+  width: 20px;
+  height: 4px;
+  border-radius: 60px;
+  position: absolute;
+  left: 140px;
+  top: 185px;
+  background-color: #150BAA;
+  transition: width 1s, height 1s;
+}
+html .person:active .mouth, body .person:active .mouth {
+  width: 20px;
+  height: 20px;
+  border-radius: 60px;
+  border: solid 2px black;
+  transition: 0.5s;
+}
+html .person:active .eyes .Reye .eye1, body .person:active .eyes .Reye .eye1 {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  transition: 0.5s;
+  width: 25px;
+  height: 35px;
+  border-radius: 50px;
+}
+html .person:active .eyes .Leye .eye2, body .person:active .eyes .Leye .eye2 {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  transition: 0.5s;
+  width: 25px;
+  height: 35px;
+  border-radius: 50px;
+}
+html .person:hover .hair .hair1, body .person:hover .hair .hair1 {
+  position: absolute;
+  left: 180px;
+  top: 35px;
+  transition: 1s;
+}
+html .youtubeDisplay, body .youtubeDisplay {
+  width: 600px;
+  height: 350px;
+  border-radius: 0;
+  position: absolute;
+  left: 990px;
+  top: 80px;
+}
+html .imageDisplay, body .imageDisplay {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  position: absolute;
+  left: 80px;
+  top: 700px;
+  transition: left 1s, top 1s, width 1s, height 1s;
+}
+html .imageDisplay .img1, body .imageDisplay .img1 {
+  display: cover;
+}
+html .imageDisplay02, body .imageDisplay02 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  position: absolute;
+  left: 1700px;
+  top: 150px;
+  transition: left 1s, top 1s, width 1s, height 1s;
+}
+html .imageDisplay02 .img2, body .imageDisplay02 .img2 {
+  display: cover;
+}
+html .myDisplay, body .myDisplay {
+  width: 600px;
+  height: 400px;
+  border-radius: 0;
+  position: absolute;
+  left: 380px;
+  top: 465px;
+}
+html .h5pmygame, body .h5pmygame {
+  width: 600px;
+  height: 350px;
+  border-radius: 0;
+  position: absolute;
+  left: 380px;
+  top: 80px;
+  background: #fff;
+}
+html .imageDisplay:hover, body .imageDisplay:hover {
+  width: 130px;
+  height: 130px;
+  border-radius: 0;
+  position: absolute;
+  left: 70px;
+  top: 650px;
+  transition: 0.5s;
+}
+html .imageDisplay02:hover, body .imageDisplay02:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 0;
+  position: absolute;
+  left: 1680px;
+  top: 130px;
+  transition: 0.5s;
+}
